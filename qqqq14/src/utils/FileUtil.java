@@ -5,10 +5,8 @@ import java.io.File;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import main.RunMain;
-
 public class FileUtil {
-	private static Logger lg = LoggerFactory.getLogger(RunMain.class);
+	private static Logger lg = LoggerFactory.getLogger(FileUtil.class);
 
 	public static boolean mkdir(String fileName) {
 		File file = new File(fileName);
